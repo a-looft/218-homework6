@@ -1,3 +1,5 @@
+# pylint: disable=invalid-name, missing-module-docstring, missing-function-docstring
+
 from app.commands.add_command import AddCommand
 from app.commands.subtract_command import SubtractCommand
 from app.commands.multiply_command import MultiplyCommand
