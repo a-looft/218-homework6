@@ -2,8 +2,8 @@
 
 from faker import Faker
 import pytest
-from calculator.calculation import Calculation
-from calculator.calculator import Calculator
+from app.calculator.calculation import Calculation
+from app.calculator.calculator import Calculator
 
 
 fake = Faker()

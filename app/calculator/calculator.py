@@ -1,7 +1,7 @@
 # pylint: disable=invalid-name, missing-module-docstring, missing-class-docstring, missing-function-docstring
 
 from typing import List
-from calculator.calculation import Calculation
+from .calculation import Calculation
 
 class Calculator:
     history: List[Calculation] = []

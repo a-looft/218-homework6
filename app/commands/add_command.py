@@ -1,5 +1,5 @@
 from app.command_interface import Command
-from app.calculator_logic import Calculator
+from app.calculator.calculator import Calculator
 
 class AddCommand(Command):
     def get_name(self):
