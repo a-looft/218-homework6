@@ -13,4 +13,4 @@ print(f"Running in {env} mode")
 
 logging.config.fileConfig('logging.conf')
 logger = logging.getLogger(__name__)
-logger.info("Starting calculator app")
+logger.info("Starting calculator")
